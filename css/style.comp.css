@@ -819,6 +819,9 @@ body {
   opacity: 0;
   width: 0;
   transition: all 0.8s cubic-bezier(0.68, -0.6, 0.32, 1.6); }
+  @media only screen and (max-width: 56.25em) {
+    .navigation__nav {
+      visibility: hidden; } }
 
 .navigation__list {
   position: absolute;
@@ -858,6 +861,9 @@ body {
 .navigation__checkbox:checked ~ .navigation__nav {
   width: 100%;
   opacity: 1; }
+  @media only screen and (max-width: 56.25em) {
+    .navigation__checkbox:checked ~ .navigation__nav {
+      visibility: visible; } }
 
 .navigation__icon {
   position: relative;
