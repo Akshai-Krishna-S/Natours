@@ -98,6 +98,8 @@
       );
       background-size: 230%;
       transition: all 0.4s;
+      opacity: 0;
+      visibility: hidden;
 
       span {
         display: inline-block;
